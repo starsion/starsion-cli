@@ -1,6 +1,6 @@
-/test
-/public
-/node_modules
-/utils-soruce
+test
+public
+node_modules
+utils-soruce
 babel.config.js
 starsion.config.js
