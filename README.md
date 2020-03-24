@@ -14,11 +14,9 @@ starsion server 3002
 
 ## Author
 
-starsion
-
-github/starsion
+[github/starsion](https://github.com/starsion)
 
 ## License
 
-Copyright (c) 2020 starsion
-Released under the MIT license
+[Copyright (c) 2020 starsion
+Released under the MIT license](LICENSE)

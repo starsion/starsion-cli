@@ -1,6 +1,10 @@
-test
-public
-node_modules
-utils-soruce
+# ingore file for npm
+# file folder
+/test
+/public
+/node_modules
+/utils-soruce
+
+# file
 babel.config.js
 starsion.config.js

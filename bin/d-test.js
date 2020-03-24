@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-const program = require('commander'); 
+const program = require('commander');
+const { log } = require('../utils');
 
 program
   .option('-f, --force', 'force installation')
@@ -13,9 +14,7 @@ if (!pkgs.length) {
   process.exit(1);
 }
 
-console.log();
 if (program.force) console.log('  force: install');
-pkgs.forEach(function(pkg) {
+pkgs.forEach(function (pkg) {
   console.log('  install : %s', pkg);
 });
-console.log();

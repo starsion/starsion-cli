@@ -1,5 +1,7 @@
 var checker = require('./check');
+const log = require('./log');
 
 module.exports = {
-  Checker: checker
+  checker,
+  log
 }
