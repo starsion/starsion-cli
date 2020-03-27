@@ -1,3 +1,4 @@
 module.exports = {
-    // path:'public'
+    path: 'public',
+    entry: './index.js'
 }

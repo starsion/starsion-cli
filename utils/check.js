@@ -1,3 +1,7 @@
+const fs = require('fs');
+
+const curPath = process.cwd();
+
 /**
  * port need to check
  * @param {[Number, String]} port port 
@@ -15,6 +19,17 @@ function isValidPort(port = '') {
     }
 }
 
+function isFolderExists(_path) {
+    fs.exists(_path, (exist)=>{
+        if(exist) {
+            return true;
+        } else {
+            return false;
+        } 
+    })
+}
+
 module.exports = {
-    isValidPort
+    isValidPort,
+    isFolderExists
 }

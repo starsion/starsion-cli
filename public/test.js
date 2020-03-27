@@ -1,5 +1,5 @@
 const path = require('path')
-const pack = require('./starsion.config.js')
+const pack = require('../starsion.config')
 const curPath = process.cwd();
 
 console.log('----1',process)

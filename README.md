@@ -2,7 +2,10 @@
 
 ## command list
 
-...
+```bash
+starsion
+# Then shell will list enable command
+```
 
 ### 1. server || s [port]
 
